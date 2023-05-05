@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: white;
+    width: 100% ;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px ;
+
+}   
+
+.logo {
+    text-decoration: none;
+    color: purple;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.8em;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: purple;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+
+}
+.navigation a:hover{
+color: greenyellow;
+
+}
+section {
+    padding: 100px 200px
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/bacground.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+.main h2{
+    color: ghostwhite;
+    font-size: 1.4em;
+    font-weight: 500;
+
+}
+.main h3 {
+color: ghostwhite;
+display: inline-block;
+margin-top: 20px;
+font-size: 3em;
+font-weight: 800;
+}
+
+.main h4 {
+    color: ghostwhite;
+    font-size: 2em;
+    font-weight: 500;
+    margin-top:  10px;
+    margin-bottom: 30px;
+}
+
+.main-btn{
+    color: ghostwhite;
+    background-color: rgb(183, 68, 183);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: .9375em  2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+
+}
+.main-btn:hover{
+    background-color: rgb(216, 188, 216);
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+.social-icons a {
+    color: ghostwhite;
+    font-size: 1.7em;
+    padding-right: 30px;}
+
+
+
+.title { 
+    display: flex;
+    justify-content:center;
+    color: purple;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+
+
+}
+.About.content{
+    background-color: rgb(202, 144, 174);
+ }
+
+
+
+
+.About{     background-color: rgb(199, 190, 194);
+}
+.content{
+justify-content:center;
+
+    flex-direction: row;
+    flex-wrap: wrap;}
+
+   
+
+
+
+
+ .cards{
+    box-sizing: border-box;
+
+    display: inline-block;
+    background-color: white;
+
+    justify-content : center;
+    background-size: cover;
+    border: 1px solid whitesmoke;
+    height: fixed;
+    width: 25em;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 30px;
+    transition: 0.7s ease;
+    margin-left: 50px;
+}
+
+.cards:hover{
+    transform: scale(1.1);
+}
+ 
+.project-image img { width: 100%;}
+
+.info{
+    padding: 1em;
+
+}
+.info h3{
+      display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 10px;
+    color: black;
+}
+.project-category{
+    font-size: 0.8em;
+    color: black;
+}
+
+
+
+
+
+
+.row{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    
+
+}
+.row form {
+
+
+    flex:  1 1 40rem;
+    padding: 2rem 2.5rem;
+    background-color: rgb(202, 183, 193);
+    border-radius: .5rem ;
+    box-shadow:  3.5rem;
+}
+.row image {
+    flex: 1 1 40rem;
+}
+.row image img{
+width: 50%;
+     
+}
+.row form .box {
+    padding: 1rem;
+    font-size: 1.7rem;
+    color: gray;
+    text-transform: none;
+    border-radius: .5rem;
+    margin: .7rem;
+
+    width: 100%;
+
+}
+
+
+
+.row form textarea{
+    height: 15rem;
+    resize: none;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
